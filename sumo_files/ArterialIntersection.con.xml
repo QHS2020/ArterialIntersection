@@ -1,0 +1,50 @@
+<connections>
+  <connection xmlns:fromLane="0" xmlns:toLane="0" from="east_u" to="east_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="1" from="east_u" to="east_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="2" from="east_u" to="east_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="0" from="east_u" to="east_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="1" from="east_u" to="east_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="2" from="east_u" to="east_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="0" from="south_u" to="south_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="1" from="south_u" to="south_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="2" from="south_u" to="south_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="0" from="south_u" to="south_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="1" from="south_u" to="south_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="2" from="south_u" to="south_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="0" from="north_u" to="north_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="1" from="north_u" to="north_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="2" from="north_u" to="north_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="0" from="north_u" to="north_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="1" from="north_u" to="north_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="2" from="north_u" to="north_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="0" from="west_u" to="west_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="1" from="west_u" to="west_c"/>
+  <connection xmlns:fromLane="0" xmlns:toLane="2" from="west_u" to="west_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="0" from="west_u" to="west_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="1" from="west_u" to="west_c"/>
+  <connection xmlns:fromLane="1" xmlns:toLane="2" from="west_u" to="west_c"/>
+  <connection from="north_c" to="west_out" fromLane="0" toLane="0" tl="intersection" linkIndex="0"/>
+  <connection from="north_c" to="west_out" fromLane="0" toLane="1" tl="intersection" linkIndex="1"/>
+  <connection from="north_c" to="south_out" fromLane="1" toLane="0" tl="intersection" linkIndex="2"/>
+  <connection from="north_c" to="south_out" fromLane="1" toLane="1" tl="intersection" linkIndex="3"/>
+  <connection from="north_c" to="east_out" fromLane="2" toLane="0" tl="intersection" linkIndex="4"/>
+  <connection from="north_c" to="east_out" fromLane="2" toLane="1" tl="intersection" linkIndex="5"/>
+  <connection from="east_c" to="north_out" fromLane="0" toLane="0" tl="intersection" linkIndex="6"/>
+  <connection from="east_c" to="north_out" fromLane="0" toLane="1" tl="intersection" linkIndex="7"/>
+  <connection from="east_c" to="west_out" fromLane="1" toLane="0" tl="intersection" linkIndex="8"/>
+  <connection from="east_c" to="west_out" fromLane="1" toLane="1" tl="intersection" linkIndex="9"/>
+  <connection from="east_c" to="south_out" fromLane="2" toLane="0" tl="intersection" linkIndex="10"/>
+  <connection from="east_c" to="south_out" fromLane="2" toLane="1" tl="intersection" linkIndex="11"/>
+  <connection from="south_c" to="east_out" fromLane="0" toLane="0" tl="intersection" linkIndex="12"/>
+  <connection from="south_c" to="east_out" fromLane="0" toLane="1" tl="intersection" linkIndex="13"/>
+  <connection from="south_c" to="north_out" fromLane="1" toLane="0" tl="intersection" linkIndex="14"/>
+  <connection from="south_c" to="north_out" fromLane="1" toLane="1" tl="intersection" linkIndex="15"/>
+  <connection from="south_c" to="west_out" fromLane="2" toLane="0" tl="intersection" linkIndex="16"/>
+  <connection from="south_c" to="west_out" fromLane="2" toLane="1" tl="intersection" linkIndex="17"/>
+  <connection from="west_c" to="south_out" fromLane="0" toLane="0" tl="intersection" linkIndex="18"/>
+  <connection from="west_c" to="south_out" fromLane="0" toLane="1" tl="intersection" linkIndex="19"/>
+  <connection from="west_c" to="east_out" fromLane="1" toLane="0" tl="intersection" linkIndex="20"/>
+  <connection from="west_c" to="east_out" fromLane="1" toLane="1" tl="intersection" linkIndex="21"/>
+  <connection from="west_c" to="north_out" fromLane="2" toLane="0" tl="intersection" linkIndex="22"/>
+  <connection from="west_c" to="north_out" fromLane="2" toLane="1" tl="intersection" linkIndex="23"/>
+</connections>

@@ -1,0 +1,10 @@
+*.pyc
+codes/*.pyc
+docs/*
+figs/*
+inbooks/*
+data/*
+pkgs_conda_management/*
+tmp_files/*
+git.sh
+

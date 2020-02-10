@@ -1,0 +1,54 @@
+<net>
+  <edge function="normal" id="east_u" numLanes="2" from="east_input" to="east_interface">
+    <lane index="0" length="300" shape="821.0,415.75 521.0,415.75" speed="40.0"/>
+    <lane index="1" length="300" shape="821.0,412.25 521.0,412.25" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="east_c" numLanes="3" from="east_interface" to="intersection">
+    <lane index="0" length="100" shape="521.0,419.25 421.0,419.25" speed="40.0"/>
+    <lane index="1" length="100" shape="521.0,415.75 421.0,415.75" speed="40.0"/>
+    <lane index="2" length="100" shape="521.0,412.25 421.0,412.25" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="east_out" length="400" numLanes="2" from="intersection" to="east_input">
+    <lane index="0" length="400" shape="421.0,405.25 821.0,405.25" speed="40.0"/>
+    <lane index="1" length="400" shape="421.0,408.75 821.0,408.75" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="south_u" numLanes="2" from="south_input" to="south_interface">
+    <lane index="0" length="300" shape="415.75,0.0 415.75,300.0" speed="40.0"/>
+    <lane index="1" length="300" shape="412.25,0.0 412.25,300.0" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="south_c" numLanes="3" from="south_interface" to="intersection">
+    <lane index="0" length="100" shape="419.25,300.0 419.25,400.0" speed="40.0"/>
+    <lane index="1" length="100" shape="415.75,300.0 415.75,400.0" speed="40.0"/>
+    <lane index="2" length="100" shape="412.25,300.0 412.25,400.0" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="south_out" length="400" numLanes="2" from="intersection" to="south_input">
+    <lane index="0" length="400" shape="405.25,400.0 405.25,0.0" speed="40.0"/>
+    <lane index="1" length="400" shape="408.75,400.0 408.75,0.0" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="west_u" numLanes="2" from="west_input" to="west_interface">
+    <lane index="0" length="300" shape="0.0,405.25 300.0,405.25" speed="40.0"/>
+    <lane index="1" length="300" shape="0.0,408.75 300.0,408.75" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="west_c" numLanes="3" from="west_interface" to="intersection">
+    <lane index="0" length="100" shape="300.0,401.75 400.0,401.75" speed="40.0"/>
+    <lane index="1" length="100" shape="300.0,405.25 400.0,405.25" speed="40.0"/>
+    <lane index="2" length="100" shape="300.0,408.75 400.0,408.75" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="west_out" length="400" numLanes="2" from="intersection" to="west_input">
+    <lane index="0" length="400" shape="400.0,415.75 0.0,415.75" speed="40.0"/>
+    <lane index="1" length="400" shape="400.0,412.25 0.0,412.25" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="north_u" numLanes="2" from="north_input" to="north_interface">
+    <lane index="0" length="300" shape="405.25,821.0 405.25,521.0" speed="40.0"/>
+    <lane index="1" length="300" shape="408.75,821.0 408.75,521.0" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="north_c" numLanes="3" from="north_interface" to="intersection">
+    <lane index="0" length="100" shape="401.75,521.0 401.75,421.0" speed="40.0"/>
+    <lane index="1" length="100" shape="405.25,521.0 405.25,421.0" speed="40.0"/>
+    <lane index="2" length="100" shape="408.75,521.0 408.75,421.0" speed="40.0"/>
+  </edge>
+  <edge function="normal" id="north_out" length="400" numLanes="2" from="intersection" to="north_input">
+    <lane index="0" length="400" shape="415.75,421.0 415.75,821.0" speed="40.0"/>
+    <lane index="1" length="400" shape="412.25,421.0 412.25,821.0" speed="40.0"/>
+  </edge>
+</net>

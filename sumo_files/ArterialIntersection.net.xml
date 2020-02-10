@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Dec  5 21:39:09 2019 by SUMO netconvert Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="ArterialIntersection.nod.xml"/>
+        <edge-files value="ArterialIntersection.edg.xml"/>
+        <connection-files value="ArterialIntersection.con.xml"/>
+        <tllogic-files value="ArterialIntersection.tll.xml"/>
+    </input>
+
+    <output>
+        <output-file value="ArterialIntersection.net.xml"/>
+    </output>
+
+    <tls_building>
+        <tls.guess-signals value="false"/>
+    </tls_building>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,821.00,821.00" origBoundary="0.00,0.00,821.00,821.00" projParameter="!"/>
+
+    <edge id=":east_input_0" function="internal">
+        <lane id=":east_input_0_0" index="0" speed="40.00" length="5.11" shape="821.00,408.75 822.31,409.62 822.75,410.50 822.31,411.38 821.00,412.25"/>
+    </edge>
+    <edge id=":east_interface_0" function="internal">
+        <lane id=":east_interface_0_0" index="0" speed="40.00" length="3.54" shape="522.50,415.75 519.50,419.25"/>
+        <lane id=":east_interface_0_1" index="1" speed="40.00" length="3.54" shape="522.50,415.75 519.50,415.75"/>
+        <lane id=":east_interface_0_2" index="2" speed="40.00" length="3.54" shape="522.50,412.25 519.50,412.25"/>
+    </edge>
+    <edge id=":intersection_0" function="internal">
+        <lane id=":intersection_0_0" index="0" speed="40.00" length="8.03" shape="401.75,422.35 401.56,419.46 400.98,417.40 400.01,416.16 398.65,415.75"/>
+    </edge>
+    <edge id=":intersection_1" function="internal">
+        <lane id=":intersection_1_0" index="0" speed="40.00" length="11.26" shape="401.75,422.35 401.56,417.93 400.98,414.77 400.01,412.88 398.65,412.25"/>
+    </edge>
+    <edge id=":intersection_2" function="internal">
+        <lane id=":intersection_2_0" index="0" speed="40.00" length="23.86" shape="405.25,422.35 405.25,398.65"/>
+        <lane id=":intersection_2_1" index="1" speed="40.00" length="23.86" shape="405.25,422.35 405.80,415.00 407.00,409.76 408.20,404.89 408.75,398.65"/>
+    </edge>
+    <edge id=":intersection_4" function="internal">
+        <lane id=":intersection_4_0" index="0" speed="40.00" length="14.36" shape="408.75,422.35 409.60,414.87 412.15,409.52 412.88,408.98"/>
+    </edge>
+    <edge id=":intersection_5" function="internal">
+        <lane id=":intersection_5_0" index="0" speed="40.00" length="10.97" shape="408.75,422.35 409.60,416.40 412.15,412.15"/>
+    </edge>
+    <edge id=":intersection_24" function="internal">
+        <lane id=":intersection_24_0" index="0" speed="40.00" length="10.46" shape="412.88,408.98 416.40,406.32 422.35,405.25"/>
+    </edge>
+    <edge id=":intersection_25" function="internal">
+        <lane id=":intersection_25_0" index="0" speed="40.00" length="10.97" shape="412.15,412.15 416.40,409.60 422.35,408.75"/>
+    </edge>
+    <edge id=":intersection_6" function="internal">
+        <lane id=":intersection_6_0" index="0" speed="40.00" length="8.03" shape="422.35,419.25 419.46,419.44 417.40,420.02 416.16,420.99 415.75,422.35"/>
+    </edge>
+    <edge id=":intersection_7" function="internal">
+        <lane id=":intersection_7_0" index="0" speed="40.00" length="11.26" shape="422.35,419.25 417.93,419.44 414.77,420.02 412.88,420.99 412.25,422.35"/>
+    </edge>
+    <edge id=":intersection_8" function="internal">
+        <lane id=":intersection_8_0" index="0" speed="40.00" length="23.86" shape="422.35,415.75 398.65,415.75"/>
+        <lane id=":intersection_8_1" index="1" speed="40.00" length="23.86" shape="422.35,415.75 415.00,415.20 409.76,414.00 404.89,412.80 398.65,412.25"/>
+    </edge>
+    <edge id=":intersection_10" function="internal">
+        <lane id=":intersection_10_0" index="0" speed="40.00" length="14.36" shape="422.35,412.25 414.87,411.40 409.52,408.85 408.98,408.12"/>
+    </edge>
+    <edge id=":intersection_11" function="internal">
+        <lane id=":intersection_11_0" index="0" speed="40.00" length="10.97" shape="422.35,412.25 416.40,411.40 412.15,408.85"/>
+    </edge>
+    <edge id=":intersection_26" function="internal">
+        <lane id=":intersection_26_0" index="0" speed="40.00" length="10.46" shape="408.98,408.12 406.32,404.60 405.25,398.65"/>
+    </edge>
+    <edge id=":intersection_27" function="internal">
+        <lane id=":intersection_27_0" index="0" speed="40.00" length="10.97" shape="412.15,408.85 409.60,404.60 408.75,398.65"/>
+    </edge>
+    <edge id=":intersection_12" function="internal">
+        <lane id=":intersection_12_0" index="0" speed="40.00" length="8.03" shape="419.25,398.65 419.44,401.54 420.02,403.60 420.99,404.84 422.35,405.25"/>
+    </edge>
+    <edge id=":intersection_13" function="internal">
+        <lane id=":intersection_13_0" index="0" speed="40.00" length="11.26" shape="419.25,398.65 419.44,403.07 420.02,406.23 420.99,408.12 422.35,408.75"/>
+    </edge>
+    <edge id=":intersection_14" function="internal">
+        <lane id=":intersection_14_0" index="0" speed="40.00" length="23.86" shape="415.75,398.65 415.75,422.35"/>
+        <lane id=":intersection_14_1" index="1" speed="40.00" length="23.86" shape="415.75,398.65 415.20,406.00 414.00,411.24 412.80,416.11 412.25,422.35"/>
+    </edge>
+    <edge id=":intersection_16" function="internal">
+        <lane id=":intersection_16_0" index="0" speed="40.00" length="14.36" shape="412.25,398.65 411.40,406.13 408.85,411.48 408.12,412.02"/>
+    </edge>
+    <edge id=":intersection_17" function="internal">
+        <lane id=":intersection_17_0" index="0" speed="40.00" length="10.97" shape="412.25,398.65 411.40,404.60 408.85,408.85"/>
+    </edge>
+    <edge id=":intersection_28" function="internal">
+        <lane id=":intersection_28_0" index="0" speed="40.00" length="10.46" shape="408.12,412.02 404.60,414.68 398.65,415.75"/>
+    </edge>
+    <edge id=":intersection_29" function="internal">
+        <lane id=":intersection_29_0" index="0" speed="40.00" length="10.97" shape="408.85,408.85 404.60,411.40 398.65,412.25"/>
+    </edge>
+    <edge id=":intersection_18" function="internal">
+        <lane id=":intersection_18_0" index="0" speed="40.00" length="8.03" shape="398.65,401.75 401.54,401.56 403.60,400.98 404.84,400.01 405.25,398.65"/>
+    </edge>
+    <edge id=":intersection_19" function="internal">
+        <lane id=":intersection_19_0" index="0" speed="40.00" length="11.26" shape="398.65,401.75 403.07,401.56 406.23,400.98 408.12,400.01 408.75,398.65"/>
+    </edge>
+    <edge id=":intersection_20" function="internal">
+        <lane id=":intersection_20_0" index="0" speed="40.00" length="23.86" shape="398.65,405.25 422.35,405.25"/>
+        <lane id=":intersection_20_1" index="1" speed="40.00" length="23.86" shape="398.65,405.25 406.00,405.80 411.24,407.00 416.11,408.20 422.35,408.75"/>
+    </edge>
+    <edge id=":intersection_22" function="internal">
+        <lane id=":intersection_22_0" index="0" speed="40.00" length="14.36" shape="398.65,408.75 406.13,409.60 411.48,412.15 412.02,412.88"/>
+    </edge>
+    <edge id=":intersection_23" function="internal">
+        <lane id=":intersection_23_0" index="0" speed="40.00" length="10.97" shape="398.65,408.75 404.60,409.60 408.85,412.15"/>
+    </edge>
+    <edge id=":intersection_30" function="internal">
+        <lane id=":intersection_30_0" index="0" speed="40.00" length="10.46" shape="412.02,412.88 414.68,416.40 415.75,422.35"/>
+    </edge>
+    <edge id=":intersection_31" function="internal">
+        <lane id=":intersection_31_0" index="0" speed="40.00" length="10.97" shape="408.85,412.15 411.40,416.40 412.25,422.35"/>
+    </edge>
+    <edge id=":north_input_0" function="internal">
+        <lane id=":north_input_0_0" index="0" speed="40.00" length="5.11" shape="412.25,821.00 411.38,822.31 410.50,822.75 409.62,822.31 408.75,821.00"/>
+    </edge>
+    <edge id=":north_interface_0" function="internal">
+        <lane id=":north_interface_0_0" index="0" speed="40.00" length="3.54" shape="405.25,522.50 401.75,519.50"/>
+        <lane id=":north_interface_0_1" index="1" speed="40.00" length="3.54" shape="405.25,522.50 405.25,519.50"/>
+        <lane id=":north_interface_0_2" index="2" speed="40.00" length="3.54" shape="408.75,522.50 408.75,519.50"/>
+    </edge>
+    <edge id=":south_input_0" function="internal">
+        <lane id=":south_input_0_0" index="0" speed="40.00" length="5.11" shape="408.75,0.00 409.62,-1.31 410.50,-1.75 411.38,-1.31 412.25,0.00"/>
+    </edge>
+    <edge id=":south_interface_0" function="internal">
+        <lane id=":south_interface_0_0" index="0" speed="40.00" length="3.54" shape="415.75,298.50 419.25,301.50"/>
+        <lane id=":south_interface_0_1" index="1" speed="40.00" length="3.54" shape="415.75,298.50 415.75,301.50"/>
+        <lane id=":south_interface_0_2" index="2" speed="40.00" length="3.54" shape="412.25,298.50 412.25,301.50"/>
+    </edge>
+    <edge id=":west_input_0" function="internal">
+        <lane id=":west_input_0_0" index="0" speed="40.00" length="5.11" shape="0.00,412.25 -1.31,411.38 -1.75,410.50 -1.31,409.62 0.00,408.75"/>
+    </edge>
+    <edge id=":west_interface_0" function="internal">
+        <lane id=":west_interface_0_0" index="0" speed="40.00" length="3.54" shape="298.50,405.25 301.50,401.75"/>
+        <lane id=":west_interface_0_1" index="1" speed="40.00" length="3.54" shape="298.50,405.25 301.50,405.25"/>
+        <lane id=":west_interface_0_2" index="2" speed="40.00" length="3.54" shape="298.50,408.75 301.50,408.75"/>
+    </edge>
+
+    <edge id="east_c" from="east_interface" to="intersection" priority="-1">
+        <lane id="east_c_0" index="0" speed="40.00" length="97.15" customShape="1" shape="519.50,419.25 422.35,419.25"/>
+        <lane id="east_c_1" index="1" speed="40.00" length="97.15" customShape="1" shape="519.50,415.75 422.35,415.75"/>
+        <lane id="east_c_2" index="2" speed="40.00" length="97.15" customShape="1" shape="519.50,412.25 422.35,412.25"/>
+    </edge>
+    <edge id="east_out" from="intersection" to="east_input" priority="-1" length="400.00">
+        <lane id="east_out_0" index="0" speed="40.00" length="400.00" customShape="1" shape="422.35,405.25 821.00,405.25"/>
+        <lane id="east_out_1" index="1" speed="40.00" length="400.00" customShape="1" shape="422.35,408.75 821.00,408.75"/>
+    </edge>
+    <edge id="east_u" from="east_input" to="east_interface" priority="-1">
+        <lane id="east_u_0" index="0" speed="40.00" length="298.50" customShape="1" shape="821.00,415.75 522.50,415.75"/>
+        <lane id="east_u_1" index="1" speed="40.00" length="298.50" customShape="1" shape="821.00,412.25 522.50,412.25"/>
+    </edge>
+    <edge id="north_c" from="north_interface" to="intersection" priority="-1">
+        <lane id="north_c_0" index="0" speed="40.00" length="97.15" customShape="1" shape="401.75,519.50 401.75,422.35"/>
+        <lane id="north_c_1" index="1" speed="40.00" length="97.15" customShape="1" shape="405.25,519.50 405.25,422.35"/>
+        <lane id="north_c_2" index="2" speed="40.00" length="97.15" customShape="1" shape="408.75,519.50 408.75,422.35"/>
+    </edge>
+    <edge id="north_out" from="intersection" to="north_input" priority="-1" length="400.00">
+        <lane id="north_out_0" index="0" speed="40.00" length="400.00" customShape="1" shape="415.75,422.35 415.75,821.00"/>
+        <lane id="north_out_1" index="1" speed="40.00" length="400.00" customShape="1" shape="412.25,422.35 412.25,821.00"/>
+    </edge>
+    <edge id="north_u" from="north_input" to="north_interface" priority="-1">
+        <lane id="north_u_0" index="0" speed="40.00" length="298.50" customShape="1" shape="405.25,821.00 405.25,522.50"/>
+        <lane id="north_u_1" index="1" speed="40.00" length="298.50" customShape="1" shape="408.75,821.00 408.75,522.50"/>
+    </edge>
+    <edge id="south_c" from="south_interface" to="intersection" priority="-1">
+        <lane id="south_c_0" index="0" speed="40.00" length="97.15" customShape="1" shape="419.25,301.50 419.25,398.65"/>
+        <lane id="south_c_1" index="1" speed="40.00" length="97.15" customShape="1" shape="415.75,301.50 415.75,398.65"/>
+        <lane id="south_c_2" index="2" speed="40.00" length="97.15" customShape="1" shape="412.25,301.50 412.25,398.65"/>
+    </edge>
+    <edge id="south_out" from="intersection" to="south_input" priority="-1" length="400.00">
+        <lane id="south_out_0" index="0" speed="40.00" length="400.00" customShape="1" shape="405.25,398.65 405.25,0.00"/>
+        <lane id="south_out_1" index="1" speed="40.00" length="400.00" customShape="1" shape="408.75,398.65 408.75,0.00"/>
+    </edge>
+    <edge id="south_u" from="south_input" to="south_interface" priority="-1">
+        <lane id="south_u_0" index="0" speed="40.00" length="298.50" customShape="1" shape="415.75,0.00 415.75,298.50"/>
+        <lane id="south_u_1" index="1" speed="40.00" length="298.50" customShape="1" shape="412.25,0.00 412.25,298.50"/>
+    </edge>
+    <edge id="west_c" from="west_interface" to="intersection" priority="-1">
+        <lane id="west_c_0" index="0" speed="40.00" length="97.15" customShape="1" shape="301.50,401.75 398.65,401.75"/>
+        <lane id="west_c_1" index="1" speed="40.00" length="97.15" customShape="1" shape="301.50,405.25 398.65,405.25"/>
+        <lane id="west_c_2" index="2" speed="40.00" length="97.15" customShape="1" shape="301.50,408.75 398.65,408.75"/>
+    </edge>
+    <edge id="west_out" from="intersection" to="west_input" priority="-1" length="400.00">
+        <lane id="west_out_0" index="0" speed="40.00" length="400.00" customShape="1" shape="398.65,415.75 0.00,415.75"/>
+        <lane id="west_out_1" index="1" speed="40.00" length="400.00" customShape="1" shape="398.65,412.25 0.00,412.25"/>
+    </edge>
+    <edge id="west_u" from="west_input" to="west_interface" priority="-1">
+        <lane id="west_u_0" index="0" speed="40.00" length="298.50" customShape="1" shape="0.00,405.25 298.50,405.25"/>
+        <lane id="west_u_1" index="1" speed="40.00" length="298.50" customShape="1" shape="0.00,408.75 298.50,408.75"/>
+    </edge>
+
+    <tlLogic id="intersection" type="static" programID="0" offset="0">
+        <phase duration="33" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3" state="yyyyggrrrrrryyyyggrrrrrr"/>
+        <phase duration="6" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3" state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="33" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3" state="rrrrrryyyyggrrrrrryyyygg"/>
+        <phase duration="6" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3" state="rrrrrrrrrryyrrrrrrrrrryy"/>
+    </tlLogic>
+    <tlLogic id="intersection" type="static" programID="my_program" offset="0">
+        <phase duration="37.75" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="41.33" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="21.29" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="22.08" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="47.61" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="36.40" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="42.82" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="29.54" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="28.93" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="41.88" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="30.70" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="40.50" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="33.89" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="23.26" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="29.23" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="27.45" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="25.47" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="44.72" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="37.48" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="31.60" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="25.80" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="45.57" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="49.40" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="46.40" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="22.84" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="45.49" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="44.52" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="37.42" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="26.96" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="47.70" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="45.90" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="34.94" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="40.44" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="21.70" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="39.10" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="46.65" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="33.87" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="25.63" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="44.85" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="23.24" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="32.59" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="23.54" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="20.82" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="41.00" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="37.53" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="28.58" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="41.13" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="31.14" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="29.02" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="31.36" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="29.73" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="27.65" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="36.43" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="46.48" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="25.51" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="26.05" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="41.28" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="30.33" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="49.45" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="41.44" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="25.59" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="24.96" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="48.48" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="28.18" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="35.45" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="24.22" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="49.06" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="40.40" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="40.88" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="40.28" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="43.69" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="38.43" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="48.44" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="32.61" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="21.04" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="48.63" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="29.45" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="22.41" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="27.67" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="38.74" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="44.73" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="32.76" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="32.94" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="34.38" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="30.54" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="41.08" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="44.81" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="38.86" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="34.94" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="48.03" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="25.00" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="43.49" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="20.25" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="40.77" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="34.51" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="21.46" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="42.80" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="37.12" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="21.39" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="34.94" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="42.35" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="42.26" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="30.93" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="25.43" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="38.31" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="37.97" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="21.97" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="25.23" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="34.62" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="48.72" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="38.33" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="46.64" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="30.79" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="26.39" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="26.02" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="21.97" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="49.80" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="34.51" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="21.90" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="40.88" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="47.86" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="46.91" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="20.42" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="21.02" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="31.37" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="38.22" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="29.22" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="43.01" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="35.78" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="44.77" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="22.83" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="30.24" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="45.49" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="33.04" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="29.87" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="41.64" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="42.43" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="47.07" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="41.23" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="32.16" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="39.53" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="31.57" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="41.91" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="20.70" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="25.39" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="39.22" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="34.99" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="39.63" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="30.60" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="46.45" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="23.63" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="28.00" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="33.87" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="20.51" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="20.20" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="45.36" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="27.42" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="47.43" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="46.32" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="40.93" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="24.08" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="43.15" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="37.25" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="28.93" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="27.39" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="48.34" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="37.77" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="47.39" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="27.72" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="44.19" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="40.26" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="20.68" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="33.63" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="42.56" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="29.91" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="41.82" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="30.09" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="40.24" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="46.30" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="40.30" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="38.80" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="41.29" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="38.52" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="39.10" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="36.35" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="20.97" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="21.42" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="49.89" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="31.76" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="35.38" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="40.19" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="41.38" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="35.31" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="39.59" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="40.56" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="32.08" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="21.16" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="35.10" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="42.94" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="39.51" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="20.91" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="29.96" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="49.64" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="24.45" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+        <phase duration="30.71" state="GGrrrrGGrrrrGGrrrrGGgggg"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGrrrrGGyyyy"/>
+        <phase duration="43.83" state="GGrrrrGGrrrrGGggggGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGrrrrGGyyyyGGrrrr"/>
+        <phase duration="46.62" state="GGggggGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGyyyyGGrrrrGGrrrrGGrrrr"/>
+        <phase duration="29.21" state="GGrrrrGGggggGGrrrrGGrrrr"/>
+        <phase duration="3" state="GGrrrrGGyyyyGGrrrrGGrrrr"/>
+    </tlLogic>
+
+    <junction id="east_input" type="priority" x="821.00" y="410.50" incLanes="east_out_0 east_out_1" intLanes=":east_input_0_0" shape="821.00,410.65 821.00,403.65 821.00,410.35">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="east_interface" type="priority" x="521.00" y="410.50" incLanes="east_u_0 east_u_1" intLanes=":east_interface_0_0 :east_interface_0_1 :east_interface_0_2" shape="522.50,417.35 522.50,410.65 519.50,410.65 519.50,420.85">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="intersection" type="traffic_light" x="410.50" y="410.50" incLanes="north_c_0 north_c_1 north_c_2 east_c_0 east_c_1 east_c_2 south_c_0 south_c_1 south_c_2 west_c_0 west_c_1 west_c_2" intLanes=":intersection_0_0 :intersection_1_0 :intersection_2_0 :intersection_2_1 :intersection_24_0 :intersection_25_0 :intersection_6_0 :intersection_7_0 :intersection_8_0 :intersection_8_1 :intersection_26_0 :intersection_27_0 :intersection_12_0 :intersection_13_0 :intersection_14_0 :intersection_14_1 :intersection_28_0 :intersection_29_0 :intersection_18_0 :intersection_19_0 :intersection_20_0 :intersection_20_1 :intersection_30_0 :intersection_31_0" shape="400.15,422.35 417.35,422.35 422.35,420.85 422.35,403.65 420.85,398.65 403.65,398.65 398.65,400.15 398.65,417.35">
+        <request index="0" response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
+        <request index="1" response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
+        <request index="2" response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
+        <request index="3" response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
+        <request index="4" response="000000001111000000000000" foes="111100001111111100000000" cont="1"/>
+        <request index="5" response="000000001111000000000000" foes="111100001111111100000000" cont="1"/>
+        <request index="6" response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
+        <request index="7" response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
+        <request index="8" response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
+        <request index="9" response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="1"/>
+        <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="1"/>
+        <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
+        <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
+        <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
+        <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="1"/>
+        <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="1"/>
+        <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
+        <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
+        <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
+        <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="1"/>
+        <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="1"/>
+    </junction>
+    <junction id="north_input" type="priority" x="410.50" y="821.00" incLanes="north_out_0 north_out_1" intLanes=":north_input_0_0" shape="410.35,821.00 417.35,821.00 410.65,821.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="north_interface" type="priority" x="410.50" y="521.00" incLanes="north_u_0 north_u_1" intLanes=":north_interface_0_0 :north_interface_0_1 :north_interface_0_2" shape="403.65,522.50 410.35,522.50 410.35,519.50 400.15,519.50">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="south_input" type="priority" x="410.50" y="0.00" incLanes="south_out_0 south_out_1" intLanes=":south_input_0_0" shape="410.65,0.00 403.65,0.00 410.35,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="south_interface" type="priority" x="410.50" y="300.00" incLanes="south_u_0 south_u_1" intLanes=":south_interface_0_0 :south_interface_0_1 :south_interface_0_2" shape="410.65,301.50 420.85,301.50 417.35,298.50 410.65,298.50">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="west_input" type="priority" x="0.00" y="410.50" incLanes="west_out_0 west_out_1" intLanes=":west_input_0_0" shape="0.00,410.35 0.00,417.35 0.00,410.65">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="west_interface" type="priority" x="300.00" y="410.50" incLanes="west_u_0 west_u_1" intLanes=":west_interface_0_0 :west_interface_0_1 :west_interface_0_2" shape="301.50,410.35 301.50,400.15 298.50,403.65 298.50,410.35">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+
+    <junction id=":intersection_24_0" type="internal" x="412.88" y="408.98" incLanes=":intersection_4_0 south_c_0 south_c_1" intLanes=":intersection_8_0 :intersection_8_1 :intersection_10_0 :intersection_11_0 :intersection_12_0 :intersection_13_0 :intersection_14_0 :intersection_14_1 :intersection_20_0 :intersection_20_1 :intersection_22_0 :intersection_23_0"/>
+    <junction id=":intersection_25_0" type="internal" x="412.15" y="412.15" incLanes=":intersection_5_0 south_c_0 south_c_1" intLanes=":intersection_8_0 :intersection_8_1 :intersection_10_0 :intersection_11_0 :intersection_12_0 :intersection_13_0 :intersection_14_0 :intersection_14_1 :intersection_20_0 :intersection_20_1 :intersection_22_0 :intersection_23_0"/>
+    <junction id=":intersection_26_0" type="internal" x="408.98" y="408.12" incLanes=":intersection_10_0 west_c_0 west_c_1" intLanes=":intersection_2_0 :intersection_2_1 :intersection_4_0 :intersection_5_0 :intersection_14_0 :intersection_14_1 :intersection_16_0 :intersection_17_0 :intersection_18_0 :intersection_19_0 :intersection_20_0 :intersection_20_1"/>
+    <junction id=":intersection_27_0" type="internal" x="412.15" y="408.85" incLanes=":intersection_11_0 west_c_0 west_c_1" intLanes=":intersection_2_0 :intersection_2_1 :intersection_4_0 :intersection_5_0 :intersection_14_0 :intersection_14_1 :intersection_16_0 :intersection_17_0 :intersection_18_0 :intersection_19_0 :intersection_20_0 :intersection_20_1"/>
+    <junction id=":intersection_28_0" type="internal" x="408.12" y="412.02" incLanes=":intersection_16_0 north_c_0 north_c_1" intLanes=":intersection_0_0 :intersection_1_0 :intersection_2_0 :intersection_2_1 :intersection_8_0 :intersection_8_1 :intersection_10_0 :intersection_11_0 :intersection_20_0 :intersection_20_1 :intersection_22_0 :intersection_23_0"/>
+    <junction id=":intersection_29_0" type="internal" x="408.85" y="408.85" incLanes=":intersection_17_0 north_c_0 north_c_1" intLanes=":intersection_0_0 :intersection_1_0 :intersection_2_0 :intersection_2_1 :intersection_8_0 :intersection_8_1 :intersection_10_0 :intersection_11_0 :intersection_20_0 :intersection_20_1 :intersection_22_0 :intersection_23_0"/>
+    <junction id=":intersection_30_0" type="internal" x="412.02" y="412.88" incLanes=":intersection_22_0 east_c_0 east_c_1" intLanes=":intersection_2_0 :intersection_2_1 :intersection_4_0 :intersection_5_0 :intersection_6_0 :intersection_7_0 :intersection_8_0 :intersection_8_1 :intersection_14_0 :intersection_14_1 :intersection_16_0 :intersection_17_0"/>
+    <junction id=":intersection_31_0" type="internal" x="408.85" y="412.15" incLanes=":intersection_23_0 east_c_0 east_c_1" intLanes=":intersection_2_0 :intersection_2_1 :intersection_4_0 :intersection_5_0 :intersection_6_0 :intersection_7_0 :intersection_8_0 :intersection_8_1 :intersection_14_0 :intersection_14_1 :intersection_16_0 :intersection_17_0"/>
+
+    <connection from="east_c" to="north_out" fromLane="0" toLane="0" via=":intersection_6_0" tl="intersection" linkIndex="6" dir="r" state="o"/>
+    <connection from="east_c" to="north_out" fromLane="0" toLane="1" via=":intersection_7_0" tl="intersection" linkIndex="7" dir="r" state="o"/>
+    <connection from="east_c" to="west_out" fromLane="1" toLane="0" via=":intersection_8_0" tl="intersection" linkIndex="8" dir="s" state="o"/>
+    <connection from="east_c" to="west_out" fromLane="1" toLane="1" via=":intersection_8_1" tl="intersection" linkIndex="9" dir="s" state="o"/>
+    <connection from="east_c" to="south_out" fromLane="2" toLane="0" via=":intersection_10_0" tl="intersection" linkIndex="10" dir="l" state="o"/>
+    <connection from="east_c" to="south_out" fromLane="2" toLane="1" via=":intersection_11_0" tl="intersection" linkIndex="11" dir="l" state="o"/>
+    <connection from="east_out" to="east_u" fromLane="1" toLane="1" via=":east_input_0_0" dir="t" state="M"/>
+    <connection from="east_u" to="east_c" fromLane="0" toLane="0" via=":east_interface_0_0" dir="s" state="M"/>
+    <connection from="east_u" to="east_c" fromLane="0" toLane="1" via=":east_interface_0_1" dir="s" state="M"/>
+    <connection from="east_u" to="east_c" fromLane="1" toLane="2" via=":east_interface_0_2" dir="s" state="M"/>
+    <connection from="north_c" to="west_out" fromLane="0" toLane="0" via=":intersection_0_0" tl="intersection" linkIndex="0" dir="r" state="o"/>
+    <connection from="north_c" to="west_out" fromLane="0" toLane="1" via=":intersection_1_0" tl="intersection" linkIndex="1" dir="r" state="o"/>
+    <connection from="north_c" to="south_out" fromLane="1" toLane="0" via=":intersection_2_0" tl="intersection" linkIndex="2" dir="s" state="o"/>
+    <connection from="north_c" to="south_out" fromLane="1" toLane="1" via=":intersection_2_1" tl="intersection" linkIndex="3" dir="s" state="o"/>
+    <connection from="north_c" to="east_out" fromLane="2" toLane="0" via=":intersection_4_0" tl="intersection" linkIndex="4" dir="l" state="o"/>
+    <connection from="north_c" to="east_out" fromLane="2" toLane="1" via=":intersection_5_0" tl="intersection" linkIndex="5" dir="l" state="o"/>
+    <connection from="north_out" to="north_u" fromLane="1" toLane="1" via=":north_input_0_0" dir="t" state="M"/>
+    <connection from="north_u" to="north_c" fromLane="0" toLane="0" via=":north_interface_0_0" dir="s" state="M"/>
+    <connection from="north_u" to="north_c" fromLane="0" toLane="1" via=":north_interface_0_1" dir="s" state="M"/>
+    <connection from="north_u" to="north_c" fromLane="1" toLane="2" via=":north_interface_0_2" dir="s" state="M"/>
+    <connection from="south_c" to="east_out" fromLane="0" toLane="0" via=":intersection_12_0" tl="intersection" linkIndex="12" dir="r" state="o"/>
+    <connection from="south_c" to="east_out" fromLane="0" toLane="1" via=":intersection_13_0" tl="intersection" linkIndex="13" dir="r" state="o"/>
+    <connection from="south_c" to="north_out" fromLane="1" toLane="0" via=":intersection_14_0" tl="intersection" linkIndex="14" dir="s" state="o"/>
+    <connection from="south_c" to="north_out" fromLane="1" toLane="1" via=":intersection_14_1" tl="intersection" linkIndex="15" dir="s" state="o"/>
+    <connection from="south_c" to="west_out" fromLane="2" toLane="0" via=":intersection_16_0" tl="intersection" linkIndex="16" dir="l" state="o"/>
+    <connection from="south_c" to="west_out" fromLane="2" toLane="1" via=":intersection_17_0" tl="intersection" linkIndex="17" dir="l" state="o"/>
+    <connection from="south_out" to="south_u" fromLane="1" toLane="1" via=":south_input_0_0" dir="t" state="M"/>
+    <connection from="south_u" to="south_c" fromLane="0" toLane="0" via=":south_interface_0_0" dir="s" state="M"/>
+    <connection from="south_u" to="south_c" fromLane="0" toLane="1" via=":south_interface_0_1" dir="s" state="M"/>
+    <connection from="south_u" to="south_c" fromLane="1" toLane="2" via=":south_interface_0_2" dir="s" state="M"/>
+    <connection from="west_c" to="south_out" fromLane="0" toLane="0" via=":intersection_18_0" tl="intersection" linkIndex="18" dir="r" state="o"/>
+    <connection from="west_c" to="south_out" fromLane="0" toLane="1" via=":intersection_19_0" tl="intersection" linkIndex="19" dir="r" state="o"/>
+    <connection from="west_c" to="east_out" fromLane="1" toLane="0" via=":intersection_20_0" tl="intersection" linkIndex="20" dir="s" state="o"/>
+    <connection from="west_c" to="east_out" fromLane="1" toLane="1" via=":intersection_20_1" tl="intersection" linkIndex="21" dir="s" state="o"/>
+    <connection from="west_c" to="north_out" fromLane="2" toLane="0" via=":intersection_22_0" tl="intersection" linkIndex="22" dir="l" state="o"/>
+    <connection from="west_c" to="north_out" fromLane="2" toLane="1" via=":intersection_23_0" tl="intersection" linkIndex="23" dir="l" state="o"/>
+    <connection from="west_out" to="west_u" fromLane="1" toLane="1" via=":west_input_0_0" dir="t" state="M"/>
+    <connection from="west_u" to="west_c" fromLane="0" toLane="0" via=":west_interface_0_0" dir="s" state="M"/>
+    <connection from="west_u" to="west_c" fromLane="0" toLane="1" via=":west_interface_0_1" dir="s" state="M"/>
+    <connection from="west_u" to="west_c" fromLane="1" toLane="2" via=":west_interface_0_2" dir="s" state="M"/>
+
+    <connection from=":east_input_0" to="east_u" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":east_interface_0" to="east_c" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":east_interface_0" to="east_c" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":east_interface_0" to="east_c" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":intersection_0" to="west_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_1" to="west_out" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":intersection_2" to="south_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":intersection_2" to="south_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":intersection_4" to="east_out" fromLane="0" toLane="0" via=":intersection_24_0" dir="l" state="m"/>
+    <connection from=":intersection_24" to="east_out" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":intersection_5" to="east_out" fromLane="0" toLane="1" via=":intersection_25_0" dir="l" state="m"/>
+    <connection from=":intersection_25" to="east_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":intersection_6" to="north_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_7" to="north_out" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":intersection_8" to="west_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":intersection_8" to="west_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":intersection_10" to="south_out" fromLane="0" toLane="0" via=":intersection_26_0" dir="l" state="m"/>
+    <connection from=":intersection_26" to="south_out" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":intersection_11" to="south_out" fromLane="0" toLane="1" via=":intersection_27_0" dir="l" state="m"/>
+    <connection from=":intersection_27" to="south_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":intersection_12" to="east_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_13" to="east_out" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":intersection_14" to="north_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":intersection_14" to="north_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":intersection_16" to="west_out" fromLane="0" toLane="0" via=":intersection_28_0" dir="l" state="m"/>
+    <connection from=":intersection_28" to="west_out" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":intersection_17" to="west_out" fromLane="0" toLane="1" via=":intersection_29_0" dir="l" state="m"/>
+    <connection from=":intersection_29" to="west_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":intersection_18" to="south_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":intersection_19" to="south_out" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":intersection_20" to="east_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":intersection_20" to="east_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":intersection_22" to="north_out" fromLane="0" toLane="0" via=":intersection_30_0" dir="l" state="m"/>
+    <connection from=":intersection_30" to="north_out" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":intersection_23" to="north_out" fromLane="0" toLane="1" via=":intersection_31_0" dir="l" state="m"/>
+    <connection from=":intersection_31" to="north_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":north_input_0" to="north_u" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":north_interface_0" to="north_c" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":north_interface_0" to="north_c" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":north_interface_0" to="north_c" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":south_input_0" to="south_u" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":south_interface_0" to="south_c" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":south_interface_0" to="south_c" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":south_interface_0" to="south_c" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":west_input_0" to="west_u" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":west_interface_0" to="west_c" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":west_interface_0" to="west_c" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":west_interface_0" to="west_c" fromLane="2" toLane="2" dir="s" state="M"/>
+
+</net>

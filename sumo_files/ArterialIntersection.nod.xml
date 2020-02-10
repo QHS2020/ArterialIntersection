@@ -1,0 +1,11 @@
+<nodes>
+  <node id="east_input" x="821.0" y="410.5"/>
+  <node id="east_interface" x="521.0" y="410.5"/>
+  <node id="west_input" x="0.0" y="410.5"/>
+  <node id="west_interface" x="300.0" y="410.5"/>
+  <node id="south_input" x="410.5" y="0.0"/>
+  <node id="south_interface" x="410.5" y="300.0"/>
+  <node id="north_input" x="410.5" y="821.0"/>
+  <node id="north_interface" x="410.5" y="521.0"/>
+  <node id="intersection" x="410.5" y="410.5" type="traffic_light"/>
+</nodes>

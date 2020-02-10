@@ -1,0 +1,15 @@
+<additional>
+  <edgeData file="east_u.xml" id="east_u"/>
+  <inductionLoop file="loop_e_u_0.xml" freq="30" id="east_u_0" lane="east_u_0" pos="290"/>
+  <inductionLoop file="loop_e_u_1.xml" freq="30" id="east_u_1" lane="east_u_1" pos="290"/>
+  <inductionLoop file="loop_s_u_0.xml" freq="30" id="south_u_0" lane="south_u_0" pos="290"/>
+  <inductionLoop file="loop_s_u_1.xml" freq="30" id="south_u_1" lane="south_u_1" pos="290"/>
+  <vTypeProbe file="probe1.xml" freq="1.2" id="probe1" type="type1"/>
+  <edgeData file="east_u.xml" freq="30" id="east_u"/>
+  <edgeData file="south_u.xml" freq="30" id="south_u"/>
+  <edgeData file="north_u.xml" freq="30" id="north_u"/>
+  <edgeData file="west_u.xml" freq="30" id="west_u"/>
+  <timedEvent dest="output_signalstates.xml" source="intersection" type="SaveTLSStates"/>
+  <timedEvent dest="output_signalstatesswitch.xml" source="intersection" type="SaveTLSSwitchTimes"/>
+  <timedEvent dest="output_signalstatesswitchstates.xml" source="intersection" type="SaveTLSSwitchStates"/>
+</additional>

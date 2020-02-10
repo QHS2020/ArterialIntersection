@@ -1,0 +1,14 @@
+<configuration>
+  <time>
+    <begin value="0"/>
+    <end value="7200"/>
+  </time>
+  <input>
+    <net-file value="ArterialIntersection.net.xml"/>
+    <route-files value="ArterialIntersection.rou.xml"/>
+    <additional-files value="ArterialIntersection.add.xml"/>
+  </input>
+  <output>
+    <netstate-dump value="output.xml"/>
+  </output>
+</configuration>
